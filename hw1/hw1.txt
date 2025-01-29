@@ -1,0 +1,35 @@
+Cell 
+- Essentially the smallest unit of life that all organisms are made up of. It contains both the information needed to create a copy of itself, and the 'machinary' needed to gather materials to do this.
+
+Pathway 
+- These are the networks of chemical reactions which the cells take in order to do different things, such as synthesizing new materials, breaking down materials, or signaling the cell to eat/die.
+
+Molecule 
+- Groups of atoms bonded together: in this context, DNA or proteins are some examples.
+
+Gene 
+- A segment of DNA which generally coresponds to a certain purpose, usually transcribing a protein 
+
+Genome 
+- The complete set of DNA in an organism. This includes all genes.
+
+Chromosome 
+- Threadlike structures comprised of proteins and DNA, which contain the genome.
+
+Restriction Enzymes 
+- Proteins that cut DNA at every occurance of a specific recurring nucleuotide string.
+
+Palindromes 
+- Sequence of nucleuotides that are the same forwards and backwards, equating C-G and A-T.
+
+PCR (Polymerase Chain Reaction) 
+- A method to copy DNA. This method involves heating the DNA until seperation, then priming (adding excess primers), and exending the DNA (adding excess free nucleuotides) upon it becoming cooled.
+
+Gel electophoresis 
+- A method to measure size of DNA. To do this, a gel is used to measure the speed which molecules travel at respective to their length. Molecules with longer length travel slower, which is how the DNA's size is estimated.
+
+Central dogma in molecular biology 
+- The flow of information: DNA > transcription > RNA > translation > protein
+
+Traits 
+- Variations in genes which make an individual within a species unique from the generally defined central genome of the species.
