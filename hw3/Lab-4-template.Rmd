@@ -1,0 +1,48 @@
+---
+title: "Lab 4"
+author: "Your Name Here"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Instructions
+
+Complete each of the following tasks and submit a PDF with your responses/code/plots. Students can try and knit directly to PDF by clicking the knit button at the top of R, but by default it will knit to HTML. Knitting directly to PDF is easier in the long run but requires installing LaTeX. Knitting to HTML can be opened in your browser and then printed to a PDF to submit.
+
+# Assignment
+
+Before starting the assignment, explore the `StudentPerformance` data in the `StudentPerformance.csv` file. Don't include this code or output in your final submission on Gradescope, but figure out how many observations the dataset hasm what variables are in the dataset, what they represent, and how many unique values they have. You have to know a little about the dataset you're analyzing before you start analyzing it.
+
+Then for each problem below,
+
+- Create a plot that addresses each of the requirements for that problem. *Before you even start thinking about code*, first sketch out on paper or in your mind what the plot should look like. What kind of plot do you want? What variables are on the axes or used for other parts of the plot? Are values colored or grouped in some way? Only once you have a sense for the final plot you want should you start figuring out code for that plot.
+- For each plot you make, also briefly describe any trends you observe in the data.
+- Make sure to hide any messages or warnings that your functions print out. You've already seen this for loading libraries/packages. Another example: the `summarize` function often prints out a message. Make sure that none of these messages/warnings show up in your final report so that it looks more professional and is easier to read. Remember that you can set chunk options locally (just for specific code chunks) inside the `{r ...}` at the start of a code chunk or globally (changing the default behavior throughout your document) inside `knitr::opts_chunk$set(...)` in that setup chunk that's always at the top of your R Markdown files.
+
+Please note: this data set is fictional, and meant to serve pedagogical purposes.
+
+
+```{r read_data, echo=FALSE}
+students <- read.csv('StudentPerformance.csv')
+```
+
+1. Create a plot that explores the relationship between test preparation course attendance and free/reduced lunch.
+
+
+2. Create a plot that shows how the average math test score differs by racial/ethnic category and level of parental education. *Please note that while differences in many metrics between racial/ethnic groups exist in real world data, it is typically the consequence of a vast array of factors associated with, but not caused by, race or ethnicity.*
+
+
+3. Create a plot that shows the distribution of reading test scores broken down by gender and whether the student has a reduced lunch or not.
+
+
+4. Create a plot that shows individual student scores on all 3 tests simultaneously.
+
+
+
